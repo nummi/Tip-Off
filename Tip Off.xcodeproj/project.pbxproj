@@ -13,6 +13,8 @@
 		3941D7101486D2D400395F29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3941D70E1486D2D400395F29 /* Credits.rtf */; };
 		3941D7131486D2D400395F29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3941D7121486D2D400395F29 /* AppDelegate.m */; };
 		3941D7161486D2D400395F29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3941D7141486D2D400395F29 /* MainMenu.xib */; };
+		3941D71D1486D2F400395F29 /* Dribbble_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3941D71C1486D2F400395F29 /* Dribbble_ball.png */; };
+		3941D7231486DE3E00395F29 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3941D7221486DE3E00395F29 /* ImageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		3941D7021486D2D400395F29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3941D7031486D2D400395F29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3941D7041486D2D400395F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3941D7071486D2D400395F29 /* Tip Off-Info.plist */ = {isa = PBXFileReference; path = "Tip Off-Info.plist"; sourceTree = "<group>"; };
+		3941D7071486D2D400395F29 /* Tip Off-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tip Off-Info.plist"; sourceTree = "<group>"; };
 		3941D7091486D2D400395F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3941D70B1486D2D400395F29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3941D70D1486D2D400395F29 /* Tip Off-Prefix.pch */ = {isa = PBXFileReference; path = "Tip Off-Prefix.pch"; sourceTree = "<group>"; };
+		3941D70D1486D2D400395F29 /* Tip Off-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tip Off-Prefix.pch"; sourceTree = "<group>"; };
 		3941D70F1486D2D400395F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		3941D7111486D2D400395F29 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3941D7111486D2D400395F29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3941D7121486D2D400395F29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3941D7151486D2D400395F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3941D71C1486D2F400395F29 /* Dribbble_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_ball.png; sourceTree = "<group>"; };
+		3941D7211486DE3E00395F29 /* ImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageController.h; sourceTree = "<group>"; };
+		3941D7221486DE3E00395F29 /* ImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 		3941D6F01486D2D400395F29 = {
 			isa = PBXGroup;
 			children = (
+				3941D71C1486D2F400395F29 /* Dribbble_ball.png */,
 				3941D7051486D2D400395F29 /* Tip Off */,
 				3941D6FE1486D2D400395F29 /* Frameworks */,
 				3941D6FC1486D2D400395F29 /* Products */,
@@ -86,6 +92,8 @@
 				3941D7121486D2D400395F29 /* AppDelegate.m */,
 				3941D7141486D2D400395F29 /* MainMenu.xib */,
 				3941D7061486D2D400395F29 /* Supporting Files */,
+				3941D7211486DE3E00395F29 /* ImageController.h */,
+				3941D7221486DE3E00395F29 /* ImageController.m */,
 			);
 			path = "Tip Off";
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 				3941D70A1486D2D400395F29 /* InfoPlist.strings in Resources */,
 				3941D7101486D2D400395F29 /* Credits.rtf in Resources */,
 				3941D7161486D2D400395F29 /* MainMenu.xib in Resources */,
+				3941D71D1486D2F400395F29 /* Dribbble_ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				3941D70C1486D2D400395F29 /* main.m in Sources */,
 				3941D7131486D2D400395F29 /* AppDelegate.m in Sources */,
+				3941D7231486DE3E00395F29 /* ImageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
