@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3941D7001486D2D400395F29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3941D6FF1486D2D400395F29 /* Cocoa.framework */; };
+		3941D70A1486D2D400395F29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3941D7081486D2D400395F29 /* InfoPlist.strings */; };
+		3941D70C1486D2D400395F29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3941D70B1486D2D400395F29 /* main.m */; };
+		3941D7101486D2D400395F29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3941D70E1486D2D400395F29 /* Credits.rtf */; };
+		3941D7131486D2D400395F29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3941D7121486D2D400395F29 /* AppDelegate.m */; };
+		3941D7161486D2D400395F29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3941D7141486D2D400395F29 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3941D6FB1486D2D400395F29 /* Tip Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3941D6FF1486D2D400395F29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3941D7021486D2D400395F29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3941D7031486D2D400395F29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3941D7041486D2D400395F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3941D7071486D2D400395F29 /* Tip Off-Info.plist */ = {isa = PBXFileReference; path = "Tip Off-Info.plist"; sourceTree = "<group>"; };
+		3941D7091486D2D400395F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3941D70B1486D2D400395F29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3941D70D1486D2D400395F29 /* Tip Off-Prefix.pch */ = {isa = PBXFileReference; path = "Tip Off-Prefix.pch"; sourceTree = "<group>"; };
+		3941D70F1486D2D400395F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3941D7111486D2D400395F29 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3941D7121486D2D400395F29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3941D7151486D2D400395F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3941D6F81486D2D400395F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3941D7001486D2D400395F29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3941D6F01486D2D400395F29 = {
+			isa = PBXGroup;
+			children = (
+				3941D7051486D2D400395F29 /* Tip Off */,
+				3941D6FE1486D2D400395F29 /* Frameworks */,
+				3941D6FC1486D2D400395F29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3941D6FC1486D2D400395F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3941D6FB1486D2D400395F29 /* Tip Off.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3941D6FE1486D2D400395F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3941D6FF1486D2D400395F29 /* Cocoa.framework */,
+				3941D7011486D2D400395F29 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3941D7011486D2D400395F29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3941D7021486D2D400395F29 /* AppKit.framework */,
+				3941D7031486D2D400395F29 /* CoreData.framework */,
+				3941D7041486D2D400395F29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3941D7051486D2D400395F29 /* Tip Off */ = {
+			isa = PBXGroup;
+			children = (
+				3941D7111486D2D400395F29 /* AppDelegate.h */,
+				3941D7121486D2D400395F29 /* AppDelegate.m */,
+				3941D7141486D2D400395F29 /* MainMenu.xib */,
+				3941D7061486D2D400395F29 /* Supporting Files */,
+			);
+			path = "Tip Off";
+			sourceTree = "<group>";
+		};
+		3941D7061486D2D400395F29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3941D7071486D2D400395F29 /* Tip Off-Info.plist */,
+				3941D7081486D2D400395F29 /* InfoPlist.strings */,
+				3941D70B1486D2D400395F29 /* main.m */,
+				3941D70D1486D2D400395F29 /* Tip Off-Prefix.pch */,
+				3941D70E1486D2D400395F29 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3941D6FA1486D2D400395F29 /* Tip Off */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3941D7191486D2D400395F29 /* Build configuration list for PBXNativeTarget "Tip Off" */;
+			buildPhases = (
+				3941D6F71486D2D400395F29 /* Sources */,
+				3941D6F81486D2D400395F29 /* Frameworks */,
+				3941D6F91486D2D400395F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tip Off";
+			productName = "Tip Off";
+			productReference = 3941D6FB1486D2D400395F29 /* Tip Off.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3941D6F21486D2D400395F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "No Spoon Software";
+			};
+			buildConfigurationList = 3941D6F51486D2D400395F29 /* Build configuration list for PBXProject "Tip Off" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3941D6F01486D2D400395F29;
+			productRefGroup = 3941D6FC1486D2D400395F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3941D6FA1486D2D400395F29 /* Tip Off */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3941D6F91486D2D400395F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3941D70A1486D2D400395F29 /* InfoPlist.strings in Resources */,
+				3941D7101486D2D400395F29 /* Credits.rtf in Resources */,
+				3941D7161486D2D400395F29 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3941D6F71486D2D400395F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3941D70C1486D2D400395F29 /* main.m in Sources */,
+				3941D7131486D2D400395F29 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3941D7081486D2D400395F29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3941D7091486D2D400395F29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3941D70E1486D2D400395F29 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3941D70F1486D2D400395F29 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3941D7141486D2D400395F29 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3941D7151486D2D400395F29 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3941D7171486D2D400395F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3941D7181486D2D400395F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3941D71A1486D2D400395F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip Off/Tip Off-Prefix.pch";
+				INFOPLIST_FILE = "Tip Off/Tip Off-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3941D71B1486D2D400395F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip Off/Tip Off-Prefix.pch";
+				INFOPLIST_FILE = "Tip Off/Tip Off-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3941D6F51486D2D400395F29 /* Build configuration list for PBXProject "Tip Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3941D7171486D2D400395F29 /* Debug */,
+				3941D7181486D2D400395F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3941D7191486D2D400395F29 /* Build configuration list for PBXNativeTarget "Tip Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3941D71A1486D2D400395F29 /* Debug */,
+				3941D71B1486D2D400395F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3941D6F21486D2D400395F29 /* Project object */;
+}
