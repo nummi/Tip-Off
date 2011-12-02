@@ -8,8 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSTableViewDelegate, NSTableViewDataSource> {  
+  IBOutlet NSTableView *tableView;
+}
+- (void)loadImages;
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) NSMutableArray *images;
 
 @end
